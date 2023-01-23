@@ -1,5 +1,88 @@
+/* html, body {
+    height: 100%;
+    overflow-y: hidden;
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
-    border: 1px solid lightgrey;
+    background-color: rgb(0, 0, 0);
+}
+
+div {
+    position: fixed;
+    width: 717px;
+    height: 691px;
+    left: -117px;
+    top: -132px;
+    background-color: #296f3360;
+    filter: blur(200px);
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;    
+    max-width: 1200px;
     margin: 0 auto;
-    background-image: radial-gradient(farthest-corner at 100px 100px, #0A1D0D, #040C04);
+    padding: 0 2%;
+}
+
+header > img#logo {
+    position: absolute;
+    box-sizing: border-box;
+    width: 190px;
+    min-width: 100;
+    left: 125px;
+    top: 55px;
+}
+
+header > img#logo-name {
+    position: absolute;
+    box-sizing: border-box;
+    width: 202px;
+    left: 117px;
+    top: 200px
+}
+
+nav > a {
+    position: relative;
+    left: 542px;
+    top: 40px;
+    padding: 20px;
+    height: 6px;
+    
+
+    font-family: Verdana, Tahoma, sans-serif;
+    text-size-adjust: 50px;
+    font-style: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 15.5%;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 140px;
+    top: 250px;
+    color: white;
+    width: 552px;
+    height: 300px;
+    font-size: 4.5em;
+}
+
+button {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 140px;
+    top: 550px;
+    background: linear-gradient(101.61deg, #00FF0A -14.72%, #02510A 66.97%, #af73d1);
+    border-radius: 10px;
 }
