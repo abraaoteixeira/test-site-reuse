@@ -1,12 +1,12 @@
-/* html, body {
+html, body {
     height: 100%;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
-*/
+
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -26,50 +26,50 @@ div.efeito {
 .center {
     display: flex;
     flex-wrap: wrap;    
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 2%;
 }
 
 header > img#logo {
-    position: absolute;
-    box-sizing: border-box;
-    width: 190px;
-    left: 125px;
-    top: 55px;
+    position: absolute;    
+    max-width: 145px;
+    width: 145px;
+    left: 90px;
+    top: 30px;
 }
 
 header > img#logo-name {
     position: absolute;
-    box-sizing: border-box;
-    width: 202px;
-    left: 117px;
-    top: 200px
+    max-width: 145px;
+    min-width: none;
+    width: 144px;
+    left: 90px;
+    top: 176px;
 }
 
 nav > a {
     position: relative;
-    left: 542px;
+    max-height: 700px;
+    left: 590px;
     top: 40px;
     padding: 20px;
-    height: 6px;
-    
-
+    height: 6px;    
     font-family: Verdana, Tahoma, sans-serif;
-    text-size-adjust: 50px;
+    text-size-adjust: 10px;
     font-style: bold;
     color: white;
     text-decoration: none;
     font-size: 15px;
     line-height: 15.5%;
     text-transform: uppercase;
+    background: #005919;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    left: 140px;
-    top: 250px;
+    left: 112px;
+    top: 230px;
     color: white;
     width: 552px;
     height: 300px;
@@ -118,16 +118,16 @@ div.segund-card {
 }
 
 div.terc-card {
-        position: absolute;
-        background-color: #2db140;
-        width: 200px;
-        height: 225px;
-        left: 810px;
-        top: 190px;
-        opacity: 0.7;
-        transform: rotate(-30deg);
-        border-radius: 40px;
-    }
+    position: absolute;
+    background-color: #2db140;
+    width: 200px;
+    height: 225px;
+    left: 810px;
+    top: 190px;
+    opacity: 0.7;
+    transform: rotate(-30deg);
+    border-radius: 40px;
+}
 
 img.imgCard {
     position: absolute;
